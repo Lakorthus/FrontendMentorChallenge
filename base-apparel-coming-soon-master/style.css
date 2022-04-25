@@ -16,12 +16,14 @@ body {
 }
 
 .left {
+	padding: 0 40px;
 	width: 60%;
 }
 
+.inner-container {
+	max-width: 400px;
+}
 .right {
-	
-	background-size: cover;
 	width: 40%;
 }
 
@@ -54,34 +56,56 @@ form {
 
 }
 
+form.error input {
+	border: 2px solid hsl(0, 93%, 68%);
+
+}
+
 input {
 	background-color: transparent;
 	border: 1px solid hsl(0, 36%, 70%);
 	border-radius: 50px;
 	font-size: 16px;
-	padding: 15px;
+	padding: 15px 30px;
 	width: 100%;
 }
 
 button {
 	background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-	box-shadow: 2px 5px 10px hsl(0, 36%, 70%,0.6);
+	box-shadow: 2px 5px 10px hsl(0, 36%, 70%,0.5);
 	border: none;
 	border-radius: 50px;
 	position: absolute;
+	cursor: pointer;
 	padding: 15px;
 	top: 0;
 	right: 0;
+	transition: opacity 0.2s ease;
 	height: 55px;
 	width: 100px;
 }
+button:hover {
+	opacity: 0.6;
+}
 .error-icon {
+	display: none;
 	position: absolute;
 	top: 15px;
 	left: 400px;
 	
 }
 
-small {
+form.error .error-icon {
+	display: block;
+}
 
+small {
+	color: hsl(0, 93%, 68%);
+	display: none;
+	margin-top: 20px;
+	margin-left: 30px;	
+}
+
+form.error small {
+	display: block;
 }
