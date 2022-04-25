@@ -2,4 +2,86 @@
 * {
 	box-sizing: border-box;
 }
-/* ahora estaba bien feo*/
+
+body { 
+	background-image: url('/images/bg-pattern-desktop.svg');
+	background-size: cover;
+	font-family:'Josefine+Sans', sans-serif;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	min-width: 100vh;
+}
+
+.left {
+	width: 60%;
+}
+
+.right {
+	
+	background-size: cover;
+	width: 40%;
+}
+
+.logo {
+	margin: 60px 0;
+	width: 200px;
+}
+
+h1 {
+	color: hsl(0,6%,24%);
+	font-size: 60px;
+	letter-spacing: 10px;
+	line-height: 1.1;
+	text-transform: uppercase;
+
+}
+
+h1 span {
+	color: hsl(0, 36%, 70%);
+	font-weight: 200;
+}
+
+p {
+	color:hsl(0, 36%, 70%);
+	line-height: 26px;
+}
+
+form {
+	position: relative;
+
+}
+
+input {
+	background-color: transparent;
+	border: 1px solid hsl(0, 36%, 70%);
+	border-radius: 50px;
+	font-size: 16px;
+	padding: 15px;
+	width: 100%;
+}
+
+button {
+	background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+	box-shadow: 2px 5px 10px hsl(0, 36%, 70%,0.6);
+	border: none;
+	border-radius: 50px;
+	position: absolute;
+	padding: 15px;
+	top: 0;
+	right: 0;
+	height: 55px;
+	width: 100px;
+}
+.error-icon {
+	position: absolute;
+	top: 15px;
+	left: 400px;
+	
+}
+
+small {
+
+}
