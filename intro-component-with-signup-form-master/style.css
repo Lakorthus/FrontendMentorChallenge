@@ -17,8 +17,9 @@ body {
     align-items: center;
     justify-content: center;
     max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 .container > div {
@@ -44,8 +45,52 @@ p {
     margin-bottom: 20px;
 }
 
+.box p {
+    text-align: center;
+    margin: 0;
+}
+
 .box-blue {
     background-color:hsl(248, 32%, 49%);
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid hsl(246, 25%, 77%);
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    padding: 15px 25px;
+}
+
+input:focus {
+    border: 1.5px solid hsl(248, 32%, 49%);
+    outline: none;
+}
+
+button {
+    background-color:hsl(154, 59%, 51%);
+    border-radius: 5px;
+    border: 1px solid hsl(154, 59%, 40%);
+    border-bottom: 3px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    padding: 15px 25px
+    
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    border-bottom-width: 1px;
+    transform: translateY(2px);
 }
 
 .attribution {
