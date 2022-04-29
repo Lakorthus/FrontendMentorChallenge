@@ -107,4 +107,11 @@ ul li {
         flex-direction: column;
     }
 }
+
+.attribution {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
     
