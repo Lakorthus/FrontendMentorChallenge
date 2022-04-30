@@ -1,0 +1,33 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:hsl(257, 40%, 49%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: auto;
+    max-width: 100%;
+    width: 800px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex > div {
+    flex: 1;
+}
