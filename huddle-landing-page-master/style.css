@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1
+h2 {
+    font-family: 'Poppins',sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex > div {
+    flex: 1;
+}
+
+header {
+    background-image: url('./images/bg-hero-desktop.svg');
+    background-size: cover;
+    background-position: center center;
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 0;
+}
+
+nav {
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    margin: 40px 0;
+    padding: 60px;
+}
+
+.small-box {
+    display: inline-block;
+}
+
+.box img {
+    width: 80%;
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 60px;
+}
+
+.btn-primary {
+    background-color:hsl(322, 100%, 66%);
+    color: #fff;
+}
+
