@@ -106,5 +106,11 @@ button {
 		margin-left: 0;
 	}
 }
+.attribution {
+	color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
+}
 
