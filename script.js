@@ -3,7 +3,8 @@ const projects = [
     'single-price-grid-component-master',
     'base-apparel-coming-soon-master',
     'intro-component-with-signup-form-master',
-    'huddle-landing-page-with-single-introductory-section-master'
+    'huddle-landing-page-with-single-introductory-section-master',
+    'huddle-landing-page-master'
 ];
 
 const list = document.getElementById('list');
