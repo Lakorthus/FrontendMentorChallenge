@@ -38,7 +38,12 @@ h4 {
 	flex-wrap: wrap ;
 }
 
-.flex > div {
+.align-start {
+	align-items: flex-start;
+}
+
+.flex > div,
+.flex > ul {
 	flex: 1;
 }
 .flex > div:first-child{
@@ -220,3 +225,65 @@ footer p {
 	text-align: right;
 }
 
+/* media */
+@media screen and (max-width: 768px) {
+	body {
+		text-align: center;
+	}
+
+	nav {
+		flex-direction: column;
+		margin: 10px 0;
+	}
+
+	nav ul li {
+		margin: 10px 20px;
+	}
+
+	.light-blueish::before {
+		background-image: url('./images/bg-curve-mobile.svg');
+		height: 80px;
+	}
+
+	.flex {
+		flex-direction: column;
+	}
+
+	.flex > div {
+		width: 100%;
+	}
+
+	.flex > div:first-child {
+		margin-right: 0;
+	}
+
+	.flex > div:last-child {
+		margin-left: 0;
+	}
+
+	.testimonial-box {
+		width: 100%;
+	}
+
+	.blueish form input {
+		flex: 1;
+	}
+
+	.blueish form button {
+		margin: 20px 0;
+		width: 100%;
+	}
+
+	.illustration {
+		margin-top: 30px;
+	}
+
+	.user-info {
+		justify-content: center;
+	}
+
+	footer ul {
+		padding: 0;
+		width: 100%;
+	}
+}
