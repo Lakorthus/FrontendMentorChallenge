@@ -23,7 +23,14 @@ h2,
 h4 {
 	font-family: 'Raleway',sans-serif ;
 }
-
+h1 {
+	font-size: 1.9em;
+}
+h2 {
+	font-size: 1.9em;
+	margin-top: 0;
+	
+}
 
 .container {
 	padding: 30px;
@@ -40,6 +47,10 @@ h4 {
 
 .align-start {
 	align-items: flex-start;
+	font-size: 0.8em;
+	opacity: 0.8;
+	justify-content: space-between;
+
 }
 
 .flex > div,
@@ -116,6 +127,12 @@ button {
 	padding: 50px 0;
 }
 
+.light-blueish p{
+	font-size: 0.7em;
+	margin-right: 130px;
+}
+
+
 .light-blueish::before {
 	content: '';
 	background-image: url('./images/bg-curve-desktop.svg');
@@ -173,6 +190,7 @@ button {
 
 .blueish form {
 	flex-direction: column;
+	margin-left: 150px;
 	
 }
 
@@ -180,11 +198,17 @@ button {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	border: none;
 	flex: 1;
+	
 }
 
 .blueish form button {
-	margin: 20px 0;
+	margin: 20px 0 0;
 	width: 50%;
+}
+.blueish p{
+	font-size: 0.9em;
+	opacity: 0.6;
+	max-width: 500px;
 }
 
 /* Footer styling */
@@ -192,10 +216,11 @@ footer {
 	background-color: hsl(243, 87%, 12%);
 	color: #fff;
 	padding: 50px 0;
+	justify-content: space-between;
 }
 
 footer ul {
-	list-style-type: none;
+	list-style-type: none;	
 }
 
 footer ul li {
@@ -205,7 +230,7 @@ footer ul li {
 footer .social-media {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	
 }
 
 footer .circle {
@@ -225,6 +250,9 @@ footer p {
 	text-align: right;
 }
 
+footer img {
+	opacity: 0.9;
+}
 /* media */
 @media screen and (max-width: 768px) {
 	body {
@@ -239,6 +267,7 @@ footer p {
 	nav ul li {
 		margin: 10px 20px;
 	}
+	
 
 	.light-blueish::before {
 		background-image: url('./images/bg-curve-mobile.svg');
@@ -264,6 +293,13 @@ footer p {
 	.testimonial-box {
 		width: 100%;
 	}
+	
+	.blueish form {
+		margin: 0;
+		padding: 20px 80px ;
+		
+	}
+
 
 	.blueish form input {
 		flex: 1;
@@ -285,5 +321,10 @@ footer p {
 	footer ul {
 		padding: 0;
 		width: 100%;
+	}
+	.social-media {
+		margin: 0;
+		padding: 20px 0;
+		justify-content: center;
 	}
 }
