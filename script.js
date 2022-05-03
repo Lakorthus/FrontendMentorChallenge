@@ -4,7 +4,8 @@ const projects = [
     'base-apparel-coming-soon-master',
     'intro-component-with-signup-form-master',
     'huddle-landing-page-with-single-introductory-section-master',
-    'huddle-landing-page-master'
+    'huddle-landing-page-master',
+    'fylo-landing-page-with-two-column-layout-master'
 ];
 
 const list = document.getElementById('list');
