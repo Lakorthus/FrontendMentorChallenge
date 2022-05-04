@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    align-items: center;
+	justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+h1{
+    
+}
+p{
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px;
+    max-width: 380px;
+     
+}
+
+#cubik {
+    border-radius: 5px;
+    width: 100%;
+    
+}
