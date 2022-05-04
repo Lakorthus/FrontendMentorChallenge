@@ -6,7 +6,8 @@ const projects = [
     'huddle-landing-page-with-single-introductory-section-master',
     'huddle-landing-page-master',
     'fylo-landing-page-with-two-column-layout-master',
-    'qr-code-component-main'
+    'qr-code-component-main',
+    'nft-preview-card-component-main'
 ];
 
 const list = document.getElementById('list');
