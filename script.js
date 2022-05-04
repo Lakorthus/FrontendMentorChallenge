@@ -5,7 +5,8 @@ const projects = [
     'intro-component-with-signup-form-master',
     'huddle-landing-page-with-single-introductory-section-master',
     'huddle-landing-page-master',
-    'fylo-landing-page-with-two-column-layout-master'
+    'fylo-landing-page-with-two-column-layout-master',
+    'qr-code-component-main'
 ];
 
 const list = document.getElementById('list');
