@@ -37,6 +37,8 @@ p{
 }
 .overlay {
     position: relative;
+    background-color: rgba(0, 255, 247, 0.5);
+    border-radius: 5px;
 }
 #cubik {
     border-radius: 5px;
@@ -59,8 +61,9 @@ p{
     text-align: center;
    
 }
-.overlay:hover:hover{
+.overlay:hover {
     cursor: pointer;
+        
 }
 
 .overlay:hover #cubik {
