@@ -45,12 +45,14 @@ p{
 .price {
     display: flex;
     flex-direction: row;
+    font-size: 12px;
+    align-items: center;
     justify-content: space-between;
     border-bottom: 0.1px solid hsl(215, 51%, 30%);
         
 }
 
-.eth p {
+.eth h2 {
     
     font-weight: 600;
     color: hsl(178, 100%, 50%);
