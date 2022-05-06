@@ -19,13 +19,17 @@ body {
 }
 
 h1{
+    font-size: 30px;
     color: hsl(223, 47%, 23%);
     font-weight: 900;
+    letter-spacing: 0.5px;
 }
 h2{
+    
     color: hsl(223, 47%, 23%);
     font-size: 18px;
     font-weight: 700;
+    margin: 10px auto;
 }
 p{
     color: hsl(224, 23%, 55%);
@@ -41,7 +45,7 @@ a{  font-weight: 700;
     box-shadow: 5px 5px 8px 10px hsla(245, 86%, 32%, 0.1);
     align-items: center;
     text-align: center;
-    height: 700px;
+    height: 750px;
     max-width: 500px;
 }
 
@@ -59,22 +63,20 @@ a{  font-weight: 700;
 
 .plan {
     border-radius: 20px;
-    background-color: hsla(225, 100%, 94%, 0.278); 
+    background-color: hsla(225, 100%, 94%, 0.278);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
-    margin: 20px 60px;
-    grid-row-gap: 0;     
+    margin: 40px 60px;
+    height: 100px;
+     
 }
-.plan .change:first-child() {
-    align-self: flex-start;
+.price{
+    margin-right: 25%;
 }
-.plan > p {
-    margin-right: 50px;
-}
-.plan > a {
-    
+
+.price > p {
+    margin-top: -5px;
 }
 .change{
     color: hsl(245, 75%, 52%);
@@ -107,7 +109,8 @@ button {
     height: 50px;
     text-align: center;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 button:hover{
