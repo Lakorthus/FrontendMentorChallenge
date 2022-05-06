@@ -8,7 +8,8 @@ const projects = [
     'fylo-landing-page-with-two-column-layout-master',
     'qr-code-component-main',
     'nft-preview-card-component-main',
-    'order-summary-component-main'
+    'order-summary-component-main',
+    'stats-preview-card-component-main'
 ];
 
 const list = document.getElementById('list');
