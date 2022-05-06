@@ -7,7 +7,8 @@ const projects = [
     'huddle-landing-page-master',
     'fylo-landing-page-with-two-column-layout-master',
     'qr-code-component-main',
-    'nft-preview-card-component-main'
+    'nft-preview-card-component-main',
+    'order-summary-component-main'
 ];
 
 const list = document.getElementById('list');

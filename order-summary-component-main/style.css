@@ -1,123 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: url('./images/pattern-background-desktop.svg');
-	background-repeat: no-repeat;
-    background-size:  contain;
-	background-color:  hsl(225, 100%, 94%);
-	display: flex;
-	font-family: 'Red Hat Display', sans-serif;
-	font-size: .8em;
-	align-items: center;
-	justify-content: center;
-    margin: 0;
-	min-height: 100vh;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 0.8em;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
 }
 
-h1{
-    font-size: 30px;
-    color: hsl(223, 47%, 23%);
-    font-weight: 900;
-    letter-spacing: 0.5px;
+h1 {
+  font-size: 30px;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  letter-spacing: 0.5px;
 }
-h2{
-    
-    color: hsl(223, 47%, 23%);
-    font-size: 18px;
-    font-weight: 700;
-    margin: 10px auto;
+h2 {
+  color: hsl(223, 47%, 23%);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px auto;
 }
-p{
-    color: hsl(224, 23%, 55%);
-    font-size: 16px;
-    font-weight: 500;
+p {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  font-weight: 500;
 }
-a{  font-weight: 700;
-    font-size: 15px;
+a {
+  font-weight: 700;
+  font-size: 15px;
 }
 .container {
-    border-radius: 20px;
-    background-color:hsl(225, 100%, 98%);
-    box-shadow: 5px 5px 8px 10px hsla(245, 86%, 32%, 0.1);
-    align-items: center;
-    text-align: center;
-    height: 750px;
-    max-width: 500px;
+  border-radius: 20px;
+  background-color: hsl(225, 100%, 98%);
+  box-shadow: 5px 5px 8px 10px hsla(245, 86%, 32%, 0.1);
+  align-items: center;
+  text-align: center;
+  height: 750px;
+  max-width: 500px;
 }
 
 #hero {
-    border-radius: 20px 20px 0 0;
-    width: 100%;
-    
+  border-radius: 20px 20px 0 0;
+  width: 100%;
 }
 
 .main-text {
-    
-    padding: 20px 80px 0 80px ;
-
+  padding: 20px 80px 0 80px;
 }
 
 .plan {
-    border-radius: 20px;
-    background-color: hsla(225, 100%, 94%, 0.278);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 40px 60px;
-    height: 100px;
-     
+  border-radius: 20px;
+  background-color: hsla(225, 100%, 94%, 0.278);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 60px;
+  height: 100px;
 }
-.price{
-    margin-right: 25%;
+.price {
+  margin-right: 25%;
 }
 
 .price > p {
-    margin-top: -5px;
+  margin-top: -5px;
 }
-.change{
-    color: hsl(245, 75%, 52%);
-    cursor: pointer;
-    text-decoration: underline;  
+.change {
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+  text-decoration: underline;
 }
 
-.change:hover{
-    color: rgb(123, 103, 234);
-    text-decoration: none;
+.change:hover {
+  color: rgb(123, 103, 234);
+  text-decoration: none;
 }
 
 .cancel {
-    font-weight: 700;
-    font-size: 15px;
-    color: hsl(224, 23%, 55%);
-    cursor: pointer;
-    
+  font-weight: 700;
+  font-size: 15px;
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
 }
 
 button {
-    border-radius: 10px;
-    background-color: hsl(245, 75%, 52%);
-    box-shadow: 5px 5px 8px 10px hsla(245, 86%, 32%, 0.1);
-    color:hsl(225, 100%, 98%);
-    cursor: pointer;
-    font-size: 15px;
-    font-weight: 500;
-    width: 380px;
-    height: 50px;
-    text-align: center;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-    margin-top: 10px;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 5px 5px 8px 10px hsla(245, 86%, 32%, 0.1);
+  color: hsl(225, 100%, 98%);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  width: 380px;
+  height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
-button:hover{
-    background-color: rgb(123, 103, 234);
+button:hover {
+  background-color: rgb(123, 103, 234);
 }
 
-.cancel:hover{
-    font-weight: 900;
-    color: hsl(223, 47%, 23%)
+.cancel:hover {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
 }
