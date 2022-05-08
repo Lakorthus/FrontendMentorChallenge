@@ -9,7 +9,8 @@ const projects = [
     'qr-code-component-main',
     'nft-preview-card-component-main',
     'order-summary-component-main',
-    'stats-preview-card-component-main'
+    'stats-preview-card-component-main',
+    '3-column-preview-card-component-main'
 ];
 
 const list = document.getElementById('list');
