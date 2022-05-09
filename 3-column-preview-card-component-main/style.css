@@ -32,7 +32,6 @@ p {
 }
 
 .container {
-  box-shadow: 0 5px 10px 10px rgb(0, 0, 0, 0.05);
   color: hsl(0, 0%, 95%);
   align-items: center;
   text-align: center;
@@ -44,6 +43,7 @@ p {
 .flex {
   display: flex;
   flex: 1;
+  box-shadow: 0 5px 10px 10px rgb(0, 0, 0, 0.05);
 }
 .sedands {
   display: grid;
