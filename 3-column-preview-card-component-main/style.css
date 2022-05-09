@@ -109,7 +109,9 @@ button:hover {
   body {
     max-width: 360px;
     display: flex;
+    margin: 0;
   }
+
   button {
     margin-top: 20px;
   }
