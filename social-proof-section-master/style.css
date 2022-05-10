@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --dark-gray:hsl(303, 10%, 53%);
+    --light-gray:hsl(300, 24%, 96%);
+    --white:hsl(0, 0%, 100%);
+    --magenta: hsl(300, 43%, 22%);
+    --pink:hsl(333, 80%, 67%);
+}
+
+body {
+    font-size: 15px;
+    font-family: "League+Spartan",sans-serif;
+    max-width: 1440px;
+    
+}
+h1 {
+    color: var(--magenta);
+    font-weight: 700;
+    font-size: 3.8rem;
+}
+
+p {
+    color: var(--dark-gray);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+ul {
+    background-color:var(--light-gray);
+    list-style:url("./images/icon-star.svg");
+    list-style-position: inside;
+    margin:initia;
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;        
+}
+
+.list {
+    
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+    border: 2px solid blue;
+}
+
+.main-text {
+    padding: 4rem;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.grid {
+    border: 3px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: var(--white);
+    
+}
+.customer {
+    border: 2px solid green;
+    background-color: var(--magenta);
+    justify-content: space-evenly;
+    width: 50%; 
+}
+
+
+
+
+
+
+
+
