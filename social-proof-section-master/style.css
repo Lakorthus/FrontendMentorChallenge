@@ -1,84 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --dark-gray:hsl(303, 10%, 53%);
-    --light-gray:hsl(300, 24%, 96%);
-    --white:hsl(0, 0%, 100%);
-    --magenta: hsl(300, 43%, 22%);
-    --pink:hsl(333, 80%, 67%);
+  --dark-gray: hsl(303, 10%, 53%);
+  --light-gray: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+  --magenta: hsl(300, 43%, 22%);
+  --pink: hsl(333, 80%, 67%);
 }
 
-body {
-    font-size: 15px;
-    font-family: "League+Spartan",sans-serif;
-    max-width: 1440px;
-    
+body { 
+  font-size: 15px;
+  font-family: "League+Spartan", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 h1 {
-    color: var(--magenta);
-    font-weight: 700;
-    font-size: 3.8rem;
+  color: var(--magenta);
+  font-weight: 700;
+  font-size: 4.4rem;
+}
+h2{
+    font-size: 1.2rem;
 }
 
 p {
-    color: var(--dark-gray);
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-}
-ul {
-    background-color:var(--light-gray);
-    list-style:url("./images/icon-star.svg");
-    list-style-position: inside;
-    margin:initia;
-    text-align: right;
+  color: var(--dark-gray);
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  
 }
 
 .container {
     display: flex;
-    flex-direction: column;        
+    flex-direction: column;
+    max-width: 1440px;
+    min-height: 100vh;
+    justify-content: space-around;
+  
 }
 
-.list {
+.grid-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     
-    width: 50%;
-}
-
-.flex {
-    display: flex;
-    border: 2px solid blue;
 }
 
 .main-text {
-    padding: 4rem;
-    width: 50%;
-    margin: 0 auto;
-
+    width: 80%;
+}
+.main-text p {
+    margin-top: -2rem;
 }
 
-.grid {
-    border: 3px solid red;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    color: var(--white);
+
+
+.rate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--magenta);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    list-style: url("./images/icon-star.svg");
+    list-style-position: inside;    
+}
+
+.rate li{
+    border-radius: 0.5rem;
+    background-color: var(--light-gray);
+    margin-top: 1.5rem;
+    padding: 0 6rem 0 2rem;
+    height: 4rem;
+        
+}
+
+.grid-customer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5%;
+  
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: left;
     
 }
 .customer {
-    border: 2px solid green;
+    border-radius: 0.5rem;
     background-color: var(--magenta);
-    justify-content: space-evenly;
-    width: 50%; 
+    padding: 3.3rem 2rem;
+    max-width: 100%;
+    height: 19rem;
 }
 
+.customer img{
+    border-radius: 50%;
+    max-width: 3.5rem;
+    max-height: 3.5rem;
+
+}
+
+.name {
+  color: var(--white); 
+  margin-left: 1.5rem;
+}
+
+span {
+  color: var(--pink);
+  font-size: 1.1rem;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  
+  
+}
+.quote {
+    margin-top: 2rem;
+}
+.quote p {
+  color: var(--light-gray);
+  font-size: 1.0rem;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-right: 1.5rem;
 
 
-
-
-
-
-
+}
