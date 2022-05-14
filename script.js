@@ -10,7 +10,9 @@ const projects = [
     'nft-preview-card-component-main',
     'order-summary-component-main',
     'stats-preview-card-component-main',
-    '3-column-preview-card-component-main'
+    '3-column-preview-card-component-main',
+    'social-proof-section-master',
+    'profile-card-component-main'
 ];
 
 const list = document.getElementById('list');
