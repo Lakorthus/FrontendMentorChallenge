@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -7,44 +8,69 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: hsl(233, 47%, 7%);
+  background: hsl(233, 47%, 7%);
   font-size: 15px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   margin: 0;
-  padding: 0;
+  max-width: 1440px;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: hsl(0, 0%, 100%);
-}
-p {
-  font-size: 1.2rem;
-  color: hsla(0, 0%, 100%, 0.75);
-  opacity: 0.8;
 }
 
 .container {
   display: flex;
-  border-radius: 10px;
-  background-color: hsl(244, 38%, 16%);
-  font-weight: 400;
-  max-width: 1440px;
-  min-height: 530px;
-  width: 1320px;
+  flex-direction: row-reverse;
+  border-radius: 10px 0 0 10px;
+  background: hsl(244, 38%, 16%);
+  width: 76%;
+}
+.main-text {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  max-width: 50%;
 }
 
-.main-text {
-  margin: auto;
-  padding-right: 25px;
-  text-align: left;
-  max-width: 50%;
-  width: 40%;
+.main-text h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.2rem;
+  font-weight: 700;
 }
-.insights {
+.main-text .insights {
   color: hsl(277, 64%, 61%);
+}
+
+.main-text p {
+  color: hsla(0, 0%, 100%, 0.75);
+  opacity: 0.8;
+  max-width: 90%;
+  line-height: 1.5rem;
+  margin-top: -0.3rem;
+}
+
+/* stats */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 3.2rem 0;
+  width: 85%;
+}
+.stats h2 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 3px;
+}
+.stats span {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.8rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+.stats .category-3 {
+  text-transform: uppercase;
 }
 
 .purple-background {
@@ -54,7 +80,10 @@ p {
   background-color: hsl(277, 64%, 60%);
   border-radius: 0 10px 10px 0;
 }
-.portrait {
+
+/* desktop image */
+.portrait,
+.desktop-image {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -62,38 +91,6 @@ p {
   opacity: 0.75;
   border-radius: 0 10px 10px 0;
 }
-
-ul {
-  list-style: none;
-  margin: 1.5px -40px;
-}
-
-.list {
-  margin: 0;
-  padding: 0;
-}
-.count {
-  display: flex;
-  color: hsl(0, 0%, 100%);
-  font-size: 1.4em;
-  justify-content: space-between;
-  width: 26rem;
-}
-
-.type {
-  display: flex;
-  color: hsla(0, 0%, 100%, 0.6);
-  font-size: 1em;
-  text-transform: uppercase;
-  justify-content: space-between;
-  width: 26rem; 
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 360px;
-  }  
+.desktop-mobile {
+  display: none;
 }
