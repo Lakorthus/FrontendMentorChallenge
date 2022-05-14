@@ -16,16 +16,17 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
   margin: 0;
-  top: 0;
-  max-width: 1440px;
+  /* top: 0; */
+  /* max-width: 1440px; */
   min-height: 100vh;
 }
 
 .container {
   position: absolute;
-  display: grid;
+  /* display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr; */
+
   text-align: center;
   justify-content: center;
   color: hsl(229, 23%, 23%);
@@ -38,6 +39,7 @@ body {
   height: 23rem;
   width: 22rem;
 }
+
 .container p {
   color: hsl(227, 10%, 46%);
   font-weight: 400;
@@ -89,13 +91,20 @@ header .profile-picture {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-        background-color:  hsl(185, 75%, 39%);
-        background-position: bottom 10rem left -45rem, top 24rem right -40rem;
-        background-repeat: no-repeat, no-repeat;
-    }
+  body {
+    background-image: url("./images/bg-pattern-top.svg"),
+      url("./images/bg-pattern-bottom.svg");
+    background-color: hsl(185, 75%, 39%);
+    background-position: bottom 10rem left -45rem, top 24rem right -40rem;
+    background-repeat: no-repeat, no-repeat;
+  }
   .container {
-    max-width: 350px;
+    /* max-width: 350px; */
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    width: 16rem;
   }
 }
