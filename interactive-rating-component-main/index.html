@@ -19,7 +19,7 @@
   <body>
     <main class="container">
       <!-- Rating state start -->
-      <div class="state-rating">
+      <div class="state-rating" id="beforeRating">
         <div class="star">
           <img class="star-image" src="images/icon-star.svg" alt="cool star">
         </div>
@@ -67,11 +67,11 @@
             value="5"
           />
         </div>
-        <button>Submit</button>
+        <button onclick="afterRating()" type="submit">Submit</button>
       </div>
       <!-- Rating state end -->
       <!-- Thank you state start -->
-      <div class="state-thanks">
+      <div class="state-thanks" id="activeRating">
         <img
           class="phone"
           src="./images/illustration-thank-you.svg"
@@ -79,7 +79,7 @@
         />
         <p class="selection">
           You selected
-          <span class="selection-number"><!-- Add rating here --></span> out of
+          <span class="selection-number" id="valueRate"><!-- rating here --></span> out of
           5
         </p>
         <div class="state-text">
@@ -87,7 +87,6 @@
           <p>
             We appreciate you taking the time to give a rating. If you ever need
             more support, don’t hesitate to get in touch!
-          </p>
         </div>
       </div>
       <!-- Thank you state end -->
