@@ -17,7 +17,6 @@ body {
   font-size: 18px;
   margin: 0;
   top: 0;
-  max-width: 1440px;
   min-height: 100vh;
 }
 
@@ -96,6 +95,8 @@ header .profile-picture {
         background-repeat: no-repeat, no-repeat;
     }
   .container {
-    max-width: 350px;
+    width: 355px;
+    margin: auto 10px;
+    
   }
 }
