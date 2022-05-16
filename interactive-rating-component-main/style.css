@@ -91,12 +91,15 @@ p {
 }
 .state-thanks {
   display: none;
+  margin-top: 0.5rem;
 }
-.selection {
+.selection {  
+  margin: 1.5rem auto;
   color: var(--primaryOrange);
   padding: 10px 15px;
   border-radius: 2rem;
   background-color: hsl(212, 16%, 21%);
+  width: 60%;
 }
 
 /* hoover */
