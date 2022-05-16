@@ -20,7 +20,9 @@
     <main class="container">
       <!-- Rating state start -->
       <div class="state-rating">
-        <img class="star" src="./images/icon-star.svg" alt="Cool Star" />
+        <div class="star">
+          <img class="star-image" src="images/icon-star.svg" alt="cool star">
+        </div>
         <div class="main-text">
           <h1>How did we do?</h1>
           <p>
@@ -29,13 +31,41 @@
           </p>
         </div>
         <div class="rating">
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-          </ul>
+          <input
+            class="input-rating"
+            id="1"
+            onclick="ratingValue('1')"
+            type="button"
+            value="1"
+          />
+          <input
+            class="input-rating"
+            id="2"
+            onclick="ratingValue('2')"
+            type="button"
+            value="2"
+          />
+          <input
+            class="input-rating"
+            id="3"
+            onclick="ratingValue('3')"
+            type="button"
+            value="3"
+          />
+          <input
+            class="input-rating"
+            id="4"
+            onclick="ratingValue('4')"
+            type="button"
+            value="4"
+          />
+          <input
+            class="input-rating"
+            id="5"
+            onclick="ratingValue('5')"
+            type="button"
+            value="5"
+          />
         </div>
         <button>Submit</button>
       </div>
@@ -47,9 +77,10 @@
           src="./images/illustration-thank-you.svg"
           alt="Cool Phone"
         />
-        <p class="state-rating">
-          You selected <span class="rating"><!-- Add rating here --></span> out
-          of 5
+        <p class="selection">
+          You selected
+          <span class="selection-number"><!-- Add rating here --></span> out of
+          5
         </p>
         <div class="state-text">
           <h1>Thank you!</h1>
