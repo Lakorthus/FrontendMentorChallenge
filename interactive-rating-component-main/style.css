@@ -124,14 +124,3 @@ p {
 }
 
 
-@media screen and (max-width: 768px) {
-  .state-rating {
-    display: none;
-  }
-  .state-thanks #ar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-}
