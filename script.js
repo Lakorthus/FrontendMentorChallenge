@@ -14,6 +14,8 @@ const projects = [
   "social-proof-section-master",
   "huddle-landing-page-with-single-introductory-section-master",
   "huddle-landing-page-master",
+  "social-proof-section-master",
+  "faq-accordion-card-main",
 ];
 
 const list = document.getElementById("list");
