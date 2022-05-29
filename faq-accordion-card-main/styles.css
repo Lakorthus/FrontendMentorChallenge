@@ -18,11 +18,50 @@
 
     /* #### Dividers */
     
-    --Light-grayish-blue: hsl(240, 5%, 91%)-
+    --Light-grayish-blue: hsl(240, 5%, 91%);
 }
 
 *{
     box-sizing: border-box;
     margin: 0;
     top: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, var(--Soft-violet), var(--Soft-blue));
+    color: var(--Very-dark-grayish-blue);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.image-container{
+    width: 50%;
+    
+}
+
+
+.mobile-version{
+    
+    margin-left: -6.3em;
+    padding: 4rem 0;
+    width: 90%;
 }
