@@ -37,6 +37,7 @@ body{
     font-size: 12px;
     font-weight: 400;
     min-height: 100vh;
+    
 }
 
 .container {
@@ -45,6 +46,8 @@ body{
     justify-content: center;
     background-color: #fff;
     border-radius: 25px;
+    width: 70%;
+    height: 500px;
 }
 .main-text{
     display: flex;
