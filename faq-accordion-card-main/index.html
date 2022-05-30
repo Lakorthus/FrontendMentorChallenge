@@ -1,57 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-<link rel="stylesheet" href="./styles.css" type="text/css"/>
-</head>
-<body>
-  <main class="container">
-  <div class="image-container">
-    <img class= "mobile-version" src="./images/illustration-woman-online-mobile.svg" alt="Woman Illustration"/>
-  </div>
-  <div class="main-text">
-    <h1>FAQ</h1>
-    <div class="questions">
-      <div>
-        <h2>How many team members can I invite?</h2>
-        <img src="" alt="">
-        <p> You can invite up to 2 additional users on the Free plan. There is no limit on 
-          team members for the Premium plan.</p>
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="image-container">
+        <div class="desktop-design">
+          <img
+            class="desktop-pattern"
+            src="./images/bg-pattern-desktop.svg"
+            alt="Backgound and shadow"
+          />
+          <img
+            class="desktop-version"
+            src="./images/illustration-woman-online-desktop.svg"
+            alt="Woman Illustration"
+          />
+          <img
+            class="illustration-box"
+            src="./images/illustration-box-desktop.svg"
+            alt="Orange Box"
+          />
+        </div>
+
+        <div class="mobile-design">
+          <img
+            class="mobile-version"
+            src="./images/illustration-woman-online-mobile.svg"
+            alt="Woman Illustration"
+          />
+          <img
+            class="mobile-pattern"
+            src="./images/bg-pattern-mobile.svg"
+            alt="Woman Illustration"
+          />
+        </div>
       </div>
-    
-      <div>
-        <h2>What is the maximum file upload size?</h2>
-        <img src="" alt="">
-        <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+      <div class="main-text">
+        <h1>FAQ</h1>
+        <div class="questions">
+          <div>
+            <h2>How many team members can I invite?</h2>
+            <img
+              class="illustration-arrow"
+              src="./images/icon-arrow-down.svg"
+              alt="Arrow"
+            />
+            <p>
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </div>
+
+          <div>
+            <h2>What is the maximum file upload size?</h2>
+            <img
+              class="illustration-arrow"
+              src="./images/icon-arrow-down.svg"
+              alt="Arrow"
+            />
+            <p>
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </div>
+
+          <div>
+            <h2>How do I reset my password?</h2>
+            <img
+              class="illustration-arrow"
+              src="./images/icon-arrow-down.svg"
+              alt="Arrow"
+            />
+            <p>
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </div>
+
+          <div>
+            <h2>Can I cancel my subscription?</h2>
+            <img
+              class="illustration-arrow"
+              src="./images/icon-arrow-down.svg"
+              alt="Arrow"
+            />
+            <p>
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </div>
+
+          <div>
+            <h2>Do you provide additional support?</h2>
+            <img
+              class="illustration-arrow"
+              src="./images/icon-arrow-down.svg"
+              alt="Arrow"
+            />
+            <p>
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </div>
+        </div>
       </div>
-    
-      <div>
-        <h2>How do I reset my password?</h2>
-        <img src="" alt="">
-        <p>Click “Forgot password” from the login page or “Change password” from your profile page.
-          A reset link will be emailed to you.</p>
-      </div>
-    
-      <div>
-        <h2>Can I cancel my subscription?</h2>
-        <img src="" alt="">
-        <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
-      </div>
-    
-      <div>
-        <h2>Do you provide additional support?</h2>
-        <img src="" alt="">
-        <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-      </div>
-    </div>  
-  </div>
-</main>
-<script src="./index.js"></script>
-</body>
+    </main>
+    <script src="./index.js"></script>
+  </body>
 </html>

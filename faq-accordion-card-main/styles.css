@@ -46,7 +46,6 @@ body{
     background-color: #fff;
     border-radius: 25px;
 }
-
 .main-text{
     display: flex;
     flex-direction: column;
@@ -54,14 +53,21 @@ body{
 }
 
 .image-container{
-    width: 50%;
-    
+    width: 50%; 
 }
+.mobile-design{
+    display: none;
+}
+.desktop-design{
+    width: 50%;
+}
+.desktop-pattern{
+    position:relative;
 
-
-.mobile-version{
-    
-    margin-left: -6.3em;
-    padding: 4rem 0;
-    width: 90%;
+}
+.desktop-version{
+    position:relative;
+}
+.illustration-box{
+    position:relative;
 }
