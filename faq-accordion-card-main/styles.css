@@ -46,8 +46,9 @@ body{
     justify-content: center;
     background-color: #fff;
     border-radius: 25px;
-    width: 70%;
+    width: 65%;
     height: 500px;
+    
 }
 .main-text{
     display: flex;
@@ -62,15 +63,18 @@ body{
     display: none;
 }
 .desktop-design{
-    width: 50%;
-}
-.desktop-pattern{
-    position:relative;
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-repeat: repeat;
+    background-position: center;  
+}   
 
-}
 .desktop-version{
-    position:relative;
+    position: relative;
+    margin-left: -6rem;
+    margin-top: 10rem;
+    
 }
 .illustration-box{
     position:relative;
+    margin-left: -6rem;
 }
