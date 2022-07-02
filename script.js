@@ -1,5 +1,6 @@
 const projects = [
   "single-price-grid-component-master",
+  "product-preview-card-component-main",
   "nft-preview-card-component-main",
   "order-summary-component-main",
   "qr-code-component-main",
