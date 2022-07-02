@@ -1,13 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 
-.image-mobile{
-    display: none;
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+  --Font-size: 14px; /*paragraph*/
+  --Font-weight-light: 500;
+  --Font-weight-bold: 700;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+.box-left{
+  background-image: url("./images/image-product-desktop.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+
+
+
+button {
+  background-color: var(--Dark-cyan);
+  color: var(--White);
+}
+button:hover {
+  cursor: pointer;
+  background-color: hsl(158, 36%, 23%);
+}
 @media (max-width: 760px) {
-    .image-mobile{
-        display: flex;
-    }
-    .image-desktop{
-        display: none;
-    }
-  }
+ 
+}
