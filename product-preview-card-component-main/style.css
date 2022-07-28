@@ -14,9 +14,61 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: "Montserrat", sans-serif;
   min-height: 100vh;
   background: var(--Cream);
+  font-size: var(--Font-size);
 }
+.card-text{
+  font-weight: var(--Font-weight-light);
+  color: var(--Dark-grayish-blue);
+}
+.card{
+  border-radius: 20px;
+}
+.intro{
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  margin-top: -20px;
+  margin-bottom: 18px;
+}
+h5{
+  font-family: "Fraunces";
+  font-weight: var(--Font-weight-bold);
+  font-size: 2.5em;
+}
+.text{
+  margin-top: 30px;
+  font-weight:var(--Font-weight-light);
+  font-size: 1.2em;
+}
+.price{
+  color: var(--Dark-cyan);
+  font-family: "Fraunces";
+  font-weight: var(--Font-weight-bold);
+  font-size: 2.4em;
+  text-decoration: none;
+}
+.full-price{
+  font-weight: var(--Font-weight-light);
+  color: var(--Dark-grayish-blue);
+  font-size: 1.1em;
+  text-decoration:line-through;
+}
+.button{
+  background-color: var(--Dark-cyan);
+  font-size: 1.1em;
+  font-weight: var(--Font-weight-bold);
+  letter-spacing: .8px;
+  border-radius: 10px;
+}
+@media (max-width:780px) {
+  main{
+    max-height: 70%;
+    margin-top: -30px;
+  }
+}
+
+  
