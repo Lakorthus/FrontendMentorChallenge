@@ -17,30 +17,6 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 0;
-}
-
-.container {
-  display: flex;
   min-height: 100vh;
-}
-.box-left{
-  background-image: url("./images/image-product-desktop.jpg");
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-}
-
-
-
-button {
-  background-color: var(--Dark-cyan);
-  color: var(--White);
-}
-button:hover {
-  cursor: pointer;
-  background-color: hsl(158, 36%, 23%);
-}
-@media (max-width: 760px) {
- 
+  background: var(--Cream);
 }
